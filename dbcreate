@@ -1,0 +1,5 @@
+-- Create a new database
+CREATE DATABASE CollegeDB;
+
+-- Use the database
+USE CollegeDB;
