@@ -1,1 +1,2 @@
 SELECT * FROM Students;
+SELECT * FROM Students WHERE Age > 21;
