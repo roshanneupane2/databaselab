@@ -1,0 +1,7 @@
+-- Grant all privileges on CollegeDB to user 'student' with password 'pass123'
+CREATE USER 'student'@'localhost' IDENTIFIED BY 'pass123';
+
+GRANT ALL PRIVILEGES ON CollegeDB.* TO 'student'@'localhost';
+
+-- Apply changes
+FLUSH PRIVILEGES;
