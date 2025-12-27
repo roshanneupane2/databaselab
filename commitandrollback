@@ -1,0 +1,12 @@
+-- Start a transaction
+START TRANSACTION;
+
+-- Example operation
+INSERT INTO Students (StudentID, FirstName, LastName, Age, Gender, DepartmentID)
+VALUES (105, 'Anita', 'Sharma', 20, 'Female', 2);
+
+-- If everything is fine
+COMMIT;
+
+-- If something went wrong
+-- ROLLBACK;
