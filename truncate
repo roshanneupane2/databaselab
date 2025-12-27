@@ -1,0 +1,2 @@
+-- Remove all data from Enrollments (resets auto-increment too)
+TRUNCATE TABLE Enrollments;
