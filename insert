@@ -1,0 +1,5 @@
+INSERT INTO Students (StudentID, FirstName, LastName, Age, Gender, DepartmentID) VALUES
+(101, 'Ram', 'Shrestha', 20, 'Male', 1),
+(102, 'Sita', 'Koirala', 21, 'Female', 1),
+(103, 'Hari', 'Thapa', 22, 'Male', 2),
+(104, 'Gita', 'Rai', 23, 'Female', 3);
